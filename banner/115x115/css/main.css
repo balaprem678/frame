@@ -1,0 +1,35 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  position: relative;
+  width: 115px;
+  height: 115px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.images{
+  position: relative;
+  width: 460px;
+  height: 115px;
+  animation: deerrun 0.8s infinite steps(8);
+  transform: translateX(0);
+}
+@keyframes deerrun {
+  100%{
+    transform: translateX(-920px);
+  }
+}
+#img-1{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#img-2{
+  position: absolute;
+  top: -115px;
+  left: 460px;
+}

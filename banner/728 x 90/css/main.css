@@ -1,0 +1,123 @@
+body{
+  overflow-y: hidden;
+}
+.wrapper {
+  position: relative;
+    top: -8px;
+    left: -12px;
+    display: flex;
+    width: 728px;
+    height: 90px;
+    overflow: hidden;
+}
+#shape2 {
+  position: absolute;
+  right: 0px;
+}
+#shape1 {
+  position: absolute;
+  right: 0px;
+}
+#icon4 {
+  position: absolute;
+  left: 238px;
+  width: 31px;
+  top: 2px;
+  transform: rotateX(90deg);
+}
+#icon3 {
+  position: absolute;
+  left: 206px;
+  width: 31px;
+  top: 22px;
+  transform: rotateX(90deg);
+}
+#icon2 {
+  position: absolute;
+  left: 177px;
+  width: 31px;
+  top: 43px;
+  transform: rotateX(90deg);
+}
+#icon1 {
+  position: absolute;
+  left: 141px;
+  width: 31px;
+  top: 59px;
+  transform: rotateX(90deg);
+}
+#logo {
+  position: absolute;
+  top: -30px;
+  left: 281px;
+  transform: translateY(0px);
+  transition: all 1s ease;
+  opacity: 0;
+}
+#text-1 {
+  position: absolute;
+  right: -159px;
+  bottom: 7px;
+  font-size: 21px;
+  transform: translateX(0px);
+  transition: all 1s ease;
+  transform-origin: right;
+  opacity: 0;
+}
+#text-2 {
+  position: absolute;
+  right: -159px;
+  top: -33px;
+  font-size: 27px;
+  color: #ed293f;
+  transform: translateX(0px);
+  transition: all 1s ease;
+  transform-origin: right;
+  opacity: 0;
+}
+#text-3 {
+  position: absolute;
+  font-size: 13px;
+  top: 32px;
+  right: -159px;
+  transform: translateX(0px);
+  transition: all 1s ease;
+  transform-origin: right;
+  opacity: 0;
+}
+#button-text {
+  position: absolute;
+  right: 20px;
+  top: 33px;
+  padding: 3px 7px;
+  color: #ece63c;
+  background-color: #ed293f;
+  border-radius: 30px;
+  border: 1px solid #ed293f;
+  transform: scale(1);
+  opacity: 0;
+}
+#bg-shape-1 {
+  background-color: red;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 215px;
+  padding: 75px;
+  overflow: hidden;
+  transform: translateX(0px);
+  transition: all 1s ease;
+  transform-origin: left;
+}
+#bg-shape-2 {
+  background-color: red;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 215px;
+  padding: 75px;
+  overflow: hidden;
+  transform: translateX(0px);
+  transition: all 1s ease;
+  transform-origin: right;
+}

@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
+.container{
+    position: relative;
+    width: 96px;
+    height: 159px;
+    border: solid 2px black;
+    overflow: hidden;
+    margin: 0 auto;
+    
+}
+#images{
+    position: relative;
+    transform: translateX(0px);
+    width: 1142px;
+    height: 159px;
+    animation-name: man-walk;
+    animation-timing-function: steps(48);
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes man-walk{
+    100%{transform: translateX(-4568px);}
+}
+#img-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#img-2{
+    position: absolute;
+    top: -160px;
+    left: 1142px;
+}
+#img-3{
+    position: absolute;
+    top: -320px;
+    left: 2284px;
+}
+#img-4{
+    position: absolute;
+    top: -480px;
+    left: 3426px;
+}
